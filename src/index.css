@@ -12,3 +12,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.grid-container {
+    max-width: 1000px;
+    margin-left: 200px;
+}
+  
+.grid-row {
+    text-align: center;
+}
+  
+.grid-column {
+    background: #795548;
+    display: inline-block;
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+}
+  
+.grid-column.selected {
+    background: green;
+}
